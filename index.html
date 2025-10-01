@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In App</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="login-App">
+        <div class="speaker"></div>
+        <div class="camera">
+            <div class="lens"></div>
+        </div>
+        <div class="slider" id="slider">
+            <div id="login-Page" class="page">
+                <h1>Login</h1>
+                <form id="login-Form">
+                    <label for="username">Username</label>
+                    <input type="text" required>
+
+                    <div class="input-group">
+                        <label for="">Password</label>
+                        <input type="password" required>
+                        <span class="toggle-password">
+                            <img src="icons/808132.png" alt="">
+                        </span>
+                    </div>
+                    <p>Forgot Password?</p>
+
+                    <button type="submit">Sign In</button>
+                    <button type="button" class="link-btn" onclick="goToSignUp()">Sign Up</button>
+                
+                </form>
+                <hr>
+                <p>Or continue with</p>
+                <div class="icons">
+                    <img src="icons/4975303_search_web_internet_google search_search engine_icon.png" alt="Google Icon">
+                    <img src="icons/5365678_fb_facebook_facebook logo_icon.png" alt="Facebook Icon">
+                </div>
+            </div>
+
+            <div id="signup-Page" class="page">
+                <h1>Sign Up!</h1>
+                <p>Sign Up for free!</p>
+                <form id="signup-Form" class="form-section">
+                    <label for="username">Full Name</label>
+                    <input type="text" id="name" required>
+                    <span id="name-error"></span>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <span id="email-error"></span>
+
+                    <div class="input-group">
+                        <label for="">Password</label>
+                        <input type="password" id="password" required>
+                        <span class="toggle-password">
+                            <img src="icons/808132.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="">Confirm Password</label>
+                        <input type="password" id="confirm-password" required>
+                        <span class="toggle-password">
+                            <img src="icons/808132.png" alt="">
+                        </span>
+                    </div>
+                    <span id="confirm-message"></span>
+
+                    <button type="submit">Create Account</button>
+                    <button type="button" class="link-btn" onclick="goToLogin()">Back To Login</button>
+                </form>
+
+                <hr>
+                <p>Or continue with</p>
+                <div class="icons">
+                    <img src="icons/4975303_search_web_internet_google search_search engine_icon.png" alt="Google Icon">
+                    <img src="icons/5365678_fb_facebook_facebook logo_icon.png" alt="Facebook Icon">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

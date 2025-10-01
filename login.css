@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #121212, #2c75ff);
+}
+
+.speaker {
+    width: 100px;
+    height: 6px;
+    position: relative;
+    top: 1px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px #ccc;
+    background: #000;
+    margin: auto;
+}
+.camera {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #000;
+    margin: auto;
+    top: -1px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lens {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    background: #000;
+}
+
+.login-App {
+    max-width: 375px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px #ccc;
+    background-color: transparent;
+}
+
+.slider {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.page {
+    width: 100%;
+    flex: 1 1 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 25px;
+}
+
+h1 {
+    color: #eee;
+    text-align: center;
+    text-decoration: underline;
+}
+.page p {
+    color: #eee;
+}
+
+form {
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    margin: 0;
+}
+.input-group {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem 2.5rem 0.8rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px #ccc;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+    color: #ddd;
+}
+input:focus {
+    border-color: #746dff;
+    box-shadow: 0 0 6px 6px rgba(79, 70, 229, 0.3);
+    outline: none;
+}
+.toggle-password img {
+    position: absolute;
+    top: 35%;
+    right: 0.1rem;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+form p {
+    text-align: right;
+}
+
+button {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 8px;
+    background: #340275;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.2s;
+}
+button:hover {
+    background: #490039;
+}
+button:active {
+    transform: scale(0.95, 0.95);
+}
+
+#signup-Page {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+#signup-Page::-webkit-scrollbar {
+    display: none;
+}
+.form-section {
+    flex: 1;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    box-shadow: inset 0 0 5px #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+img:hover {
+    transform: scale(1.05, 1.05);
+}
+img:active {
+    transform: scale(0.95, 0.95);
+}
