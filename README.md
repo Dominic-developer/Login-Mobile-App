@@ -13,3 +13,8 @@ SCREENSHOTS:
 
 FUTURE IMPROVEMENTS:
  - Input validation
+
+<p float="left">
+ <img src="Screenshot.preview/Login.png" alt="Login page" width="300" />
+ <img src="Screenshot.preview/Sign-up.png" alt="Sign up page" width="300" />
+</p>
