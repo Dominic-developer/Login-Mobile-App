@@ -7,10 +7,6 @@ MAIN FEATURES:
  - Clean UI with lightweight JavaScript
  - Its a work in progress, many more features to come
 
-SCREENSHOTS:
-![Login page](./Screenshot.preview/Login.png)
-![Sign up page](./Screenshot.preview/Sign-up.png)
-
 FUTURE IMPROVEMENTS:
  - Input validation
 
